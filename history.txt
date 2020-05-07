@@ -1,0 +1,621 @@
+    1  /cita/local/bin/passwd
+    2  ls-la
+    3  ls - la
+    4  cd ~murray
+    5  ls - la
+    6  ls-la
+    7  ls - la
+    8  ls
+    9  cd/home/cta200
+   10  cd /home/cta200
+   11  finger cta200
+   12  finger student04
+   13  finger murray
+   14  cd /mnt/scr
+   15  md /mnt/scratch - luster/
+   16  ls
+   17  ls -la
+   18  cd ..
+   19  find -name'*auss*'
+   20  cd
+   21  cd ..
+   22  ls
+   23  find -name '*auss*'
+   24  /mnt/scrath-lustre
+   25  /mnt/scratch-luster
+   26  /mnt/scratch-luster/student04
+   27  find -name '*auss*'
+   28  pwd
+   29  cd /home/cta200
+   30  pwd
+   31  find -name '*auss*'
+   32  mkdir /mnt/scratch-luster/$USER/gauss2d
+   33  pwd
+   34  cd
+   35  pwd
+   36  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   37  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   38  pwd
+   39  history
+   40  pwd
+   41  cd mnt/scratch-luster/$USER/gauss2d
+   42  cd mnt/scratch-lustre/$USER/gauss2d
+   43  /mnt/scratch-lustre/$USER/gauss2d
+   44  pwd
+   45  cd /mnt/scratch-lustre/$USER/gauss2d
+   46  pwd
+   47  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   48  cd/mnt/scratch-lustre/$USER/gauss2d
+   49  cd /mnt/scratch-lustre/$USER/gauss2d
+   50  pwd
+   51  ls -la
+   52  cp - av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   53  pwd
+   54  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   55  pwd
+   56  gauss2d.cc
+   57  whoami
+   58  pwd
+   59  cd/
+   60  pwd
+   61  cd /
+   62  ls
+   63  cd /
+   64  pwd
+   65  bash
+   66  pwd
+   67  cd /mnt/scratch-lustre/$USER/gauss2d
+   68  ls
+   69  ls -la
+   70  history
+   71  cd /home/cta200
+   72  pwd
+   73  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   74  less gauss2d.cc
+   75  cp -av /home/cta200/Research/gauss2d/mnt/scratch-lustre/$USER/gauss2d
+   76  pwd
+   77  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+   78  gauss2d.cc
+   79  find -gauss2d.cc
+   80  src
+   81  gauss2d.cc
+   82  cat Makefile
+   83  pw
+   84  pwd
+   85  cd/home
+   86  cd student04
+   87  cd /mnt/scratch-lustre/student04/gauss2d
+   88  pwd
+   89  ls
+   90  ls -la
+   91  cd gauss2d
+   92  ls -la
+   93  cd plot.py
+   94  cd gauss2d.caa
+   95  cd gauss2d.cc
+   96  g++ gauss2d.cc -o gauss2d
+   97  ls -lt
+   98  ./gauss2d > data.txt
+   99  pwd
+  100  less gauss2d.cc
+  101  cat Makefile
+  102  ls
+  103  diff a.out gauss2d
+  104  g++ gauss2d.cc
+  105  ls -la
+  106  ./gauss2d >data.txt
+  107  rm data.txt
+  108  ls -la
+  109  a.out
+  110  gauss2d > data.txt
+  111  ./gauss2d > data.txt
+  112  ls -la
+  113  module load gcc/5.4.0
+  114  module load python/2.7.12
+  115  ./script.py
+  116  ./plot.py
+  117  ./plot.py data.txt
+  118  vim plot.py
+  119  pwd
+  120  .git
+  121  .git --.*
+  122  ./plot.py data.txt
+  123  ./gauss2d -help
+  124  -xdim INT
+  125  ./gauss2d -xdmi 100 -ydim 50 | ./plot.py
+  126  ./gauss2d -xdim 100 -ydim 50 | ./plot.py
+  127  history
+  128  ./gauss2d -xsigma 30 | ./plot.py
+  129  less gauss2d
+  130  ./gauss2d - xdim 100 -ydim 50 | ./plot.py
+  131  mkdir /mnt/scratch-lustre/$USER/gauss2d
+  132  less gauss2d.cc
+  133  pwd
+  134  cd /cita/home/student04
+  135  cd /home/student04
+  136  pwd
+  137  less gauss2d.cc
+  138  cd gauss2d.cc
+  139  cd gauss2d
+  140  cp -av /home/cta200/Research/gauss2d/mnt/scratch-lustre/$USER/gauss2d
+  141  less gauss2d.cc
+  142  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/$USER/gauss2d
+  143  less gauss2d.cc
+  144  cd gauss2d
+  145  ls
+  146  ls -la
+  147  pwd
+  148  cd gauss2d
+  149  less gauss2d.cc
+  150  /mnt/scratch-lustre/$USER/gauss2d
+  151  cd /mnt/scratch-lustre/student04/gauss2d
+  152  less gauss2d.cc
+  153  cd gauss2d
+  154  less gauss2d.cc
+  155  module load gcc/5.4.0
+  156  g++ gauss2d.cc
+  157  ./gauss2d >data.txt
+  158  ls
+  159  ls -la
+  160  module load python/2.7.12
+  161  ./plot.py data.txt
+  162  ./gauss2d -xdim 100 -ydim 30 | ./plot.py
+  163  .git
+  164  .*
+  165  cd .*
+  166  ls -la
+  167  pwd
+  168  mkdir -p repos/gauss2d.git
+  169  cd repos/gauss2d.git
+  170  pwd
+  171  cd /mnt/scratch-lustre/$USER/gauss2d
+  172  pwd
+  173  git init
+  174  echo "*.o" > .gitignore
+  175  git add gauss2d.cc Makefile plot.py .gitignore
+  176  pwd
+  177  ls -la
+  178  cd gauss2d
+  179  ls -la
+  180  pwd
+  181  git init
+  182  ls -la
+  183  echo "*.o" > .gitignore
+  184  git add gauss2d.cc Makefile plot.py .gitnignore
+  185  git add gauss2d.cc Makefile plot.py .gitignore
+  186  git status
+  187  git commit -m "Working 2d Gaussian array generation code and plotting script"
+  188  git config --global user.name "Lily"
+  189  git config --global user.email lilygong515@gmail.com
+  190  git init --bare
+  191  git init
+  192  echo hello
+  193  echo $USER
+  194  pwd
+  195  cd /mnt/scratch-lustre/student04/gauss2d/
+  196  pwd
+  197  cd /mnt/scratch-lustre/student04/gauss2d
+  198  cd /mnt/scrath-lustre/student04/gauss2d/gauss2d
+  199  cd.
+  200  pwd
+  201  dir
+  202  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  203  dir
+  204  ls -la
+  205  dir
+  206  pwd
+  207  pushd
+  208  pwd
+  209  ls -la
+  210  cd ~
+  211  pwd
+  212  ls -la
+  213  cd repos
+  214  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  215  cd repos
+  216  ls -la
+  217  ls
+  218  cd.
+  219  cd /mnt/scratch-lustre/student04/gauss2d
+  220  ls
+  221  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d/gauss2d.git
+  222  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  223  ls
+  224  ls -la
+  225  pwd
+  226  dir
+  227  ls -la
+  228  cd repos
+  229  ls -la
+  230  git remote add origin /home/$USER/repos/gauss2d.git
+  231  cat .git/config
+  232  pwd
+  233  cd /mnt/scratch-lustre/$USER/gauss2d/gauss2d
+  234  cat .git/config
+  235  git push
+  236  cd /mnt/scratch-lustre/student04/gauss2d
+  237  pwd
+  238  less gauss2d.cc
+  239  /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  240  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  241  less gauss2d.cc
+  242  rm /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  243  pwd
+  244  ./gauss2d -help
+  245  grep "dim\s*=|s*[0-9]"*.cc
+  246  cd /mnt/scratch-lustre/student04/gauss2d/gauss2d
+  247  git config --global user.name "Lily"
+  248  git config --global user.email lilygong515@gmail.com
+  249  pwd
+  250  ls -la
+  251  cd .
+  252  pwd
+  253  cd /mnt/scratch-lustre/student04/gauss2d
+  254  pwd
+  255  ls -la
+  256  rm -rf gauss2d
+  257  ls -la
+  258  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student04/gauss2d
+  259  pwd
+  260  less gauss2d.cc
+  261  ls -la
+  262  rm -rf gauss2d
+  263  ls -la
+  264  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student04
+  265  pwd
+  266  ls -la
+  267  less gauss2d.cc
+  268  module load gcc/5.4.0
+  269  g++ gauss2d.cc
+  270  ./gauss2d > data.txt
+  271  cd .
+  272  pwd
+  273  ./gauss2d > data.txt
+  274  cd ..
+  275  pwd
+  276  ./gauss2d > data.txt
+  277  cd /
+  278  cd .
+  279  pwd
+  280  cd /mnt/scratch-lustre/student04/gauss2d
+  281  pwd
+  282  ls -lt
+  283  ./gauss2d > data.txt
+  284  g++ gauss2d.cc -o gauss2d
+  285  ./gauss2d > data.txt
+  286  module load python/2.7.12
+  287  ./plot.py data.txt
+  288  cd /mnt/scratch-lustre/student04/gauss2d
+  289  ls -la
+  290  git config --global user.name "Lily"
+  291  git config --global user.email lilygong515@gmail.com
+  292  cd ~
+  293  pwd
+  294  cd /mnt/scratch-lustre/student04/gauss2d
+  295  ls -la
+  296  rm -rf .git
+  297  rm -rf .gitignore
+  298  ls -la
+  299  cd ~
+  300  pwd
+  301  mkir -p repos/gauss2d.git
+  302  mkdir -p repos/gauss2d.git
+  303  cd repos/gauss2d.git
+  304  git init --bare
+  305  cd /mnt/scratch-lustre/student04/gauss2d
+  306  git init
+  307  echo "*.o" > .gitignore
+  308  git add gauss2d.cc Makefile plot.py .gitignore
+  309  git status
+  310  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  311  git log
+  312  git remote add origin /home/student04/repos/gauss2d.git
+  313  cat .git/config
+  314  git push --set-upstream origin master
+  315  vim gauss2d.cc
+  316  git status
+  317  gi diff
+  318  git diff
+  319  pwd
+  320  git add -u
+  321  git status
+  322  git commit -m "Add program discription. Renamed sigma to dev[iation]"
+  323  vim gauss2d.cc
+  324  git diff
+  325  git checkout -- *
+  326  sed 's/sigma/dev/g' gauss2d.cc | less
+  327  git status
+  328  sed -i 's/sigma/dev/g' gauss2d.cc
+  329  git diff
+  330  git status
+  331  git commit -m "Renamed sigma to dev[iation]"
+  332  git push
+  333  git log --stat --pretty=fuller --decorate
+  334  gitk
+  335  gitstatus
+  336  git status
+  337  pwd
+  338  cd /mnt/scratch-lustre/student04/gauss2
+  339  cd /mnt/scratch-lustre/student04/gauss2d
+  340  ls -la
+  341  gitk
+  342  m makefile
+  343  hello world
+  344  cd ~murray
+  345  dir
+  346  cd cta
+  347  cd sandbox/
+  348  cd ~
+  349  pwd
+  350  dir
+  351  cd /mnt/scratch-lustre/student04
+  352  dir
+  353  ls -la
+  354  cd /mnt/scratch-lustre/student04/gauss2d
+  355  ls -la
+  356  cd reois.gauss2d.git
+  357  cd repos.gauss2d.git
+  358  cd repos/gauss2d.git
+  359  gitk
+  360  cd repos/gauss2d.git
+  361  cd ~
+  362  ls -la
+  363  cd repos
+  364  ls -la
+  365  cd gauss2d.git
+  366  ls -la
+  367  dir HEAD
+  368  cd gauss2d/
+  369  cd gauss2d
+  370  cd /mnt/scratch-lustre/student04/gauss2d
+  371  ls -la
+  372  dir .git
+  373  pwd
+  374  cd .git/
+  375  ls -la
+  376  dir refs
+  377  cd ~
+  378  ls -la
+  379  cd repos/
+  380  ls -la
+  381  cd gauss2d.git
+  382  ls -la
+  383  pwd
+  384  rsync
+  385  pwd
+  386  who
+  387  whoami
+  388  ssh cosmo2
+  389  who
+  390  top
+  391  ssh cosmo4
+  392  who
+  393  cd ~student11
+  394  dir
+  395  cd ~
+  396  dir
+  397  cd repos/
+  398  dir
+  399  ls -la
+  400  cd ~murray
+  401  cd repos/
+  402  dir
+  403  ls -la
+  404  cd ~
+  405  ls -la
+  406  cd repos/
+  407  ls -la
+  408  cd /home/murray/repos/CTA200H/lecture2
+  409  ls -la
+  410  m hello.py
+  411  m hello2.py
+  412  hello2.py
+  413  m hello2.py
+  414  Makefile hello2.py
+  415  run hello2.py
+  416  ipython
+  417  jupyter notebook
+  418  module load gcc/4.9.2 python/2.7.10
+  419  jupyter notebook
+  420  ipython
+  421  module load gcc/4.9.2 python/2.7.10
+  422  jupyter notebook
+  423  pwd
+  424  cd ~
+  425  mkdir /rep/
+  426  pwd
+  427  mkdir -p repos/local
+  428  pwd
+  429  git remote set-url origin "https://<LilyGong515>@github.com/<LilyGong515>/<CTA200>"
+  430  cd ~
+  431  ls -la
+  432  cd -repos/local
+  433  pwd
+  434  git init
+  435  git remote set-url origin "https://LilyGong515@github.com/LilyGong515/CTA200.git"
+  436  git remote add origin https://github.com/LilyGong515/CTA200.git
+  437  git remote -v
+  438  cd -repos/local
+  439  pwd
+  440  ls
+  441  ls -la
+  442  mkdir /home/student04/Newrepos
+  443  ls
+  444  cd Newrepos/
+  445  pwd
+  446  git remote add origin https://github.com/LilyGong515/CTA200.git
+  447  pwd
+  448  git init
+  449  cd ~
+  450  ls
+  451  cd /cita/d/homes/home-2/student04/.git/
+  452  pwd
+  453  ls
+  454  ls -la
+  455  cd ..
+  456  ls -la
+  457  rm -rf .git
+  458  cd Newrepos
+  459  git init
+  460  ls -la
+  461  pwd
+  462  git remote add origin https://github.com/LilyGong515/CTA200.git
+  463  git -v
+  464  git remove -v
+  465  git remote -v
+  466  gedit README.md
+  467  ls -la
+  468  rm -rf README.md~
+  469  ls -la
+  470  git add README.md 
+  471  git status
+  472  git commit -m "Adding README"
+  473  git push -u origin 
+  474  git push -u origin master
+  475  pwd
+  476  ls -la
+  477  git status
+  478  git remote -v
+  479  git remote set-url origin "https://LilyGong515@github.com/LilyGong515/CTA200.git"
+  480  git remote -v
+  481  git push -u origin master
+  482  history
+  483  history > his.txt
+  484  ls -la
+  485  cat his.txt
+  486  gedit LISENCE
+  487  git add LISENCE
+  488  git status
+  489  git commit -m "Adding LISENCE"
+  490  git push -u origin master
+  491  pwd
+  492  cd /home/cta200
+  493  ls -la
+  494  cd ..
+  495  pwd
+  496  cd ~
+  497  ls -la
+  498  cd Newrepos
+  499  pwd
+  500  git clone https://github.com/CITA/CTA200H.git
+  501  cd assignment1_2020
+  502  ls -la
+  503  cd CTA200H
+  504  ls -la
+  505  pw
+  506  pwd
+  507  rm -rf CTA200H
+  508  pwd
+  509  cd ..
+  510  pwd
+  511  ls -la
+  512  rm -rf CTA200H
+  513  ls -la
+  514  cd ~
+  515  pwd
+  516  git clone https://github.com/CITA/CTA200H.git
+  517  pwd
+  518  ls -la
+  519  cd CTA200H
+  520  ls -la
+  521  cd assignment1_2020
+  522  ls -la
+  523  cp -av/home/student04/CTA200H/assignment1_2020 /home/student04/Newrepos
+  524  cp -av /home/student04/CTA200H/assignment1_2020 /home/student04/Newrepos
+  525  cd Newrepos
+  526  cd ~
+  527  cd Newrepos
+  528  ls -la
+  529  cd assignment1_2020
+  530  ls -la
+  531  pwd
+  532  rm -rf assignment1_2020.pdf
+  533  ls -la
+  534  cd /home/murray
+  535  ls -la
+  536  pwd
+  537  cd Makefile
+  538  cd ~
+  539  cd Newrepos
+  540  ls -la
+  541  cd /cita/d/homes/home-1/murray/CTA200/cta200h_2020/CTA200H/sandbox
+  542  ls -la
+  543  cat makefile
+  544  vi makefile
+  545  cd ~
+  546  cd Newrepos
+  547  ls -la
+  548  module load gcc
+  549  cat > vim
+  550  vi makefile
+  551  pwd
+  552  ls -la
+  553  cat vim
+  554  rm -rf vim
+  555  ls -la
+  556  cat makefile
+  557  run makefile
+  558  module load gcc
+  559  run makefile
+  560  makefile
+  561  gcc makefile
+  562  g++ makefile
+  563  vi makefile
+  564  g++ makefile
+  565  pwd
+  566  ls -la
+  567  rm -rf .nfs0000000007061be400000510
+  568  rm -rf makefile
+  569  rm -rf .makefile.swp
+  570  ls -la
+  571  cd /cita/d/homes-1/murray/CTA200/cta200h_2020/CTA200H/sandbox
+  572  cd cita/d/homes/home-1/murray/CTA200/cta200h_2020/CTA200H/sandbox
+  573  cd /cita/d/homes/home-1/murray/CTA200/cta200h_2020/CRA200H/sandbox
+  574  ls
+  575  ls -la
+  576  cd /cita/d/homes/home-1/murray/CTA200/cta200h_2020/CTA200H/sandbox
+  577  ls -la
+  578  vi makefile
+  579  history
+  580  cd Newrepos
+  581  ls -la
+  582  his.txt
+  583  cat his.txt
+  584  pwd
+  585  ls -la
+  586  cd assignment1_2020
+  587  ls -la
+  588  cat average.c
+  589  cat average.h
+  590  cat main.c
+  591  history
+  592  history > his1.txt
+  593  ls -la
+  594  cd ~
+  595  cd Newrepos
+  596  ls -la
+  597  cd assignment1_2020
+  598  ls -la
+  599  cat makefile
+  600  vim makefile
+  601  cd ~
+  602  cd Newrepos
+  603  vim makefile
+  604  ls -la
+  605  ./ave
+  606  ave
+  607  pwd
+  608  git status
+  609  git add makefile average.c main.c average.h
+  610  cp -av /home/student04/Newrepos/assignment1_2020/average.c /home/student04/Newrepos
+  611  cp -av /home/student04/Newrepos/assignment1_2020/average.h /home/student04/Newrepos
+  612  cp -av /home/student04/Newrepos/assignment1_2020/main.c /home/student04/Newrepos
+  613  git status
+  614  git add makefile average.c average.h main.c
+  615  git status
+  616  git commit average.c average.h main.c makefile
+  617  git status
+  618  git push
+  619  git status
+  620  pwd
+  621  history > history.txt
