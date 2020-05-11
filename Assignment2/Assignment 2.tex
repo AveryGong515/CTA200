@@ -1,0 +1,116 @@
+%% \listfiles
+\documentclass[apj]{emulateapj}
+%\documentclass[preprint2,12pt]{emulateapj}
+%% \usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amssymb,amsmath}
+\usepackage{array}
+\usepackage{threeparttable}
+
+
+\singlespace
+
+%definitions
+\newcommand{\Msol}{${\rm M_{\sun}}$}
+
+
+%% Editing markup...
+\usepackage{color}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WARNING: This LaTeX block was generated automatically by authors.py
+% Do not change by hand: your changes will be lost.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% --------------------- Ancillary information ---------------------
+\shortauthors{Lily Gong}
+\shorttitle{Assignment 2}
+\slugcomment{May 11,2020}
+
+
+\begin{document}
+
+\title{CTA200H Assignment 2}
+ %% ---------
+ 
+\author{Lily Gong\altaffilmark{1}}
+\altaffiltext{1}{University of Toronto}
+ 
+ 
+
+\section{Problem 1}
+\label{sec:Problem 1}
+
+\subsection{Introduction}
+This problem investigates the diverging behaviour of the Mandelbrot Set within the first 100 terms of the sequence $z_{i+1} = z_i^2 + c$ in which $c = x + iy$ for $x\in(-2,2)$ and $y\in(-2,2)$.
+
+\subsection{Methods}
+\label{sec:Methods}
+In part 1 (Fig.1), a simple for loop is constructed to run 100 times and a 2D array "div" is established to determine whether a coordinate is divergent using "np.isnan()". Since the 2D array only contains "True = 1" and "False = 0", it can be plotted in colour scale using "ax.imshow". 
+
+In part 2 (Fig.2), a similar for loop is constructed with a slight modification. This is done by first constructing a new array of zeros with the same size and shape as C, then adding a counter to record the number of iterations before z becomes divergent. Note that for convergent coordinates, iteration number equals to 100. To obtain a better contrast in colour, a slight modification is made using "np.where" to replace all the 100s in the array with -20. The new 2D array is plotted using "ax.imshow" with a colour scale. 
+
+
+\subsection{Analysis}
+\label{sec:Analysis}
+The resulting plot gives a Mandelbrot set. Better resolution could be achieved if the for loop is being ran for more times.However, 100 is an valid choice here as the plot changes very little after 60 iterations. In fact, running the loop for 1000 times would give a very similar plot. As shown in Fig.2, most divergent points diverge within 20 iterations, while the region immediately surrounding the convergent region diverges at larger numbers of iterations.
+
+\section{Problem 2}
+\label{sec:Problem 2}
+
+\subsection{Introduction}
+\label{sec:Introduction}
+This problem investigates the behaviour of the SIR model with different values of parameters $\beta$ and $\gamma$. 
+
+\subsection{Methods}
+\label{sec:Methods}
+A function "SIR" is defined to output the three first order derivatives, $\frac{\partial S}{\partial t}$,$\frac{\partial I}{\partial t}$,and $\frac{\partial R}{\partial t}$.The system of ODEs is integrated using "odeint" under a fixed set of initial conditions and plotted with varying parameters $\beta$ and $\gamma$ (see Fig.3,4,and 5).
+
+\subsection{Analysis}
+\label{sec:Analysis}
+As shown through Fig.3-5, the behaviour of SIR model depends on the parameters $\beta$ and $\gamma$, representing infectious rate and recovery rate, respectively. It seems that as $\beta$ increases (Fig.3 and Fig.4), $R(t)$ increases more rapidly while $S(t)$ and $I(t)$ both decrease more rapidly. If $\gamma$ increases, the entire model flattens out within a short period of time (Fig.5).
+\begin{figure} [hbt!]
+\includegraphics[width=0.5\columnwidth]{1.png}
+\caption{Mandelbrot set. Blue showing convergent coordinates while yellow showing divergent coordinates.}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+
+\begin{figure} [hbt!]
+\includegraphics[width=0.7\columnwidth]{2.png}
+\caption{Colour-scaled Mandelbrot set showing iteration numbers at point of divergence.}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+\begin{figure} 
+\includegraphics[width=1.2\columnwidth]{3.png}
+\caption{SIR Model with parameters set to $\beta$=2 and $\gamma$=2}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+\begin{figure} 
+\includegraphics[width=1.2\columnwidth]{4.png}
+\caption{SIR Model with parameters set to $\beta$=4 and $\gamma$=2}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+\begin{figure} 
+\includegraphics[width=1.2\columnwidth]{5.png}
+\caption{SIR Model with parameters set to $\beta$=2 and $\gamma$=4}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+%\acknowledgments
+
+%% %% \bibliographystyle{act}
+%% \bibliographystyle{apj}
+
+%% \bibliography{lenscib_refs.bib,apj-jour}
+
+
+
+\end{document}
